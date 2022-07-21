@@ -1,0 +1,108 @@
+/* ====================== GERAL ============================= */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+html,
+body {
+    background-image: url(../img/stars2.gif);
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+}
+
+.welcome {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+
+.home {
+
+    margin-bottom: 2em;
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    text-shadow: 2px 8px 8px black;
+    text-transform: uppercase;
+
+}
+
+/* ====================== HOME ===================== */
+
+.home a {
+    text-decoration: none;
+    color: azure;
+}
+
+.home a:hover {
+
+    text-decoration: underline;
+    color: bisque;
+
+}
+
+.avatar {
+    margin-top: 1em;
+    border-radius: 200px;
+    border: 10px double white;
+    border-spacing: 2px;
+    box-shadow: 2px 2px 20px 10px white;
+}
+
+/*==================== TYPE =============== */
+
+
+.typewriter span {
+    color: #FF4081;
+    text-transform: uppercase;
+    padding: 10px;
+    border-right: solid rgb(242, 240, 240) 5px;
+    animation: cursor 1s ease-in-out infinite;
+    font-family: 'Cinzel', serif;
+}
+
+@keyframes cursor {
+    from {
+        border-color: rgb(225, 216, 216) !important;
+    }
+
+    to {
+        border-color: white 1px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .typewriter {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .typewriter {
+        font-size: 36px;
+    }
+}
+
+
+/*==================== FOOTER ====================*/
+
+.footer-center,
+.footer-bottom {
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+
+.footer-last a {
+    color: aliceblue !important;
+
+}
+
+.footer-last a:hover {
+    color: #FF4081 !important;
+}
